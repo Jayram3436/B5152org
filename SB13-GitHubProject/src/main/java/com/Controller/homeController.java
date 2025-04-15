@@ -16,4 +16,9 @@ public class homeController {
 	public void getMsg2() {
 		System.out.println("Hi2");
 	}
+	
+	@GetMapping("/2")
+	public void getMsg3() {
+		System.out.println("Hi3");
+	}
 }
