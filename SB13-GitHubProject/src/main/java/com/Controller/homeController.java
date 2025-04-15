@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class homeController {
 
-	@GetMapping
+	@GetMapping("/")
 	public void getMsg() {
 		System.out.println("Hi");
 		System.out.println("dev-2");
